@@ -19,9 +19,5 @@
 
 TARGET_BOARD_INFO_FILE := device/samsung/p3110/board-info.txt
 
-# Inline kernel building
-TARGET_KERNEL_SOURCE := kernel/samsung/espresso10
-TARGET_KERNEL_CONFIG := aokp_p3110_defconfig
-
 # assert
 TARGET_OTA_ASSERT_DEVICE := p3110,GT-P3110,espressowifi,espressowifixx
